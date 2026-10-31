@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- tModLoader 安装目录：换机器时改这里，或者构建时用 -p:TMLDir=你的路径 覆盖 -->
+  <PropertyGroup>
+    <TMLDir Condition="'$(TMLDir)' == ''">D:\steam\steamapps\common\tModLoader</TMLDir>
+  </PropertyGroup>
+  <Import Project="$(TMLDir)\tMLMod.targets" />
+  <PropertyGroup>
+    <AssemblyName>PerWorldMods</AssemblyName>
+    <RootNamespace>PerWorldMods</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,5 @@
+displayName = Per-World Mods
+author = local
+version = 0.5
+side = Client
+buildIgnore = *.csproj,*.user,*.ps1,*.md,dist\**,docs\**,obj\**,bin\**
