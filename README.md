@@ -7,7 +7,7 @@
 # Per-World Mods
 
 *One world, one mod list.*<br>
-*一个世界，一份清单。*
+*一个世界，一个模组。*
 
 Per-World Mods is a client-side [tModLoader](https://github.com/tModLoader/tModLoader) mod that gives every Terraria world its own fixed mod list. The list lives inside the world file, so it travels with the save and never depends on a global "enabled mods" list you have to keep rebuilding by hand. Pick a world whose mods aren't loaded and the mod swaps in the right set in-process, then drops you back into the game — no restart.
 
