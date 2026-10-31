@@ -1,18 +1,16 @@
 Per-World Mods — one world, one mod list.
+Per-World Mods —— 一个世界，一份清单。
 
-Per-World Mods is a client-side tModLoader mod that gives every Terraria world its own fixed mod list. The list is stored inside the world file, so it travels with the save; entering a world whose mods aren't loaded swaps the mod set in-process and drops you back into the game — no restart.
-
-- One mod list per world, stored in that world's own save file
-- No restart: mods reload in-process, seed/name/size/difficulty/evil preserved
-- Switch & enter / Enter anyway / Cancel; character-tagged worlds enter silently
-- Dependency-aware ticking, exactly like Manage Mods
-- Built-in in-game manual
-
-中文简介
+Per-World Mods is a client-side tModLoader mod that gives every Terraria world its own fixed mod list. The list is stored inside the world file, so it travels with the save; entering a world whose mods aren't loaded swaps the mod set in-process and drops you back into the game - no restart.
 Per-World Mods 是一个客户端 tModLoader 模组，给每个泰拉瑞亚世界固定一份模组清单。清单存在世界存档里，跟着存档走；进入一个模组对不上的世界时，它会在进程内换成正确的模组集，然后把你送回游戏 —— 不用重启。
 
-- 每个世界一份清单，存在世界存档里
-- 不用重启：进程内重载模组，种子 / 名字 / 大小 / 难度 / 世界邪恶都保留
-- 切换并进入 / 直接进入 / 取消；角色自己的世界直接进
-- 勾选模组自动带上前置，取消时连带取消依赖它的模组
-- 游戏内自带「使用说明」
+- One mod list per world, stored in that world's own save file
+  每个世界一份清单，存在该世界自己的存档里
+- No restart: mods reload in-process, seed/name/size/difficulty/evil preserved
+  不用重启：进程内重载模组，种子 / 名字 / 大小 / 难度 / 世界邪恶都保留
+- Switch & enter / Enter anyway / Cancel; character-tagged worlds enter silently
+  切换并进入 / 直接进入 / 取消；角色自己的世界直接进
+- Dependency-aware ticking, exactly like Manage Mods
+  勾选模组自动带上前置，取消时连带取消依赖它的模组，规则和「管理模组」一致
+- Built-in in-game manual
+  游戏内自带「使用说明」
