@@ -48,8 +48,9 @@ These are deliberate, and the mod will not break them:
 ## Installation
 
 1. Install [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) (this build targets the 2026.08 stable release).
-2. Drop `PerWorldMods.tmod` into `Documents/My Games/Terraria/tModLoader/Mods/`, or use *Manage Mods → Open Mods Folder*.
-3. Enable the mod and reload.
+2. Download `PerWorldMods.tmod` from [Releases](https://github.com/wellkaj/PerWorldMods/releases/latest).
+3. Drop it into `Documents/My Games/Terraria/tModLoader/Mods/`, or use *Manage Mods → Open Mods Folder*.
+4. Enable the mod and reload.
 
 > **Note:** the in-game interface is currently in Chinese. Localisation contributions are welcome — everything lives in `Localization/`.
 
