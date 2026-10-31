@@ -3,6 +3,17 @@
 *One world, one mod list.*<br>
 *一个世界，一份清单。*
 
+<p align="center">
+  <a href="https://github.com/wellkaj/PerWorldMods/releases/latest/download/PerWorldMods.tmod">
+    <img src="docs/download.png" alt="Download PerWorldMods.tmod" width="380">
+  </a>
+</p>
+
+<p align="center">
+  <sub><b>Download the latest <code>.tmod</code> above</b> · 点上面的按钮下载最新版模组<br>
+  <a href="https://github.com/wellkaj/PerWorldMods/releases/latest">All releases / 所有版本</a></sub>
+</p>
+
 Per-World Mods is a client-side [tModLoader](https://github.com/tModLoader/tModLoader) mod that gives every Terraria world its own fixed mod list. The list lives inside the world file, so it travels with the save and never depends on a global "enabled mods" list you have to keep rebuilding by hand. Pick a world whose mods aren't loaded and the mod swaps in the right set in-process, then drops you back into the game — no restart.
 
 > **中文**：Per-World Mods 是一个客户端 tModLoader 模组，给每个泰拉瑞亚世界固定一份模组清单。清单存在世界存档里，跟着存档走，不依赖那个需要你反复手动维护的全局「启用模组」列表。进入一个模组对不上的世界时，它会在进程内换成正确的模组集，然后把你送回游戏 —— 不用重启。
