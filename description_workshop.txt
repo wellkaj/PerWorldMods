@@ -1,0 +1,40 @@
+[h1]Per-World Mods[/h1]
+[h3][i]One world, one mod list. / 一个世界，一份清单。[/i][/h3]
+
+Per-World Mods gives every Terraria world its own fixed mod list. The list is stored in the world file, so it travels with the save and never depends on a global "enabled mods" list you have to rebuild by hand.
+Per-World Mods 给每个泰拉瑞亚世界固定一份模组清单。清单存在世界存档里，跟着存档走，不再依赖那个需要你反复手动维护的全局「启用模组」列表。
+
+Open a world whose mods aren't loaded and the mod swaps in the right set in-process, then drops you back into the game — no restart.
+进入一个模组对不上的世界时，它会在进程内换成正确的模组集，然后把你送回游戏 —— 不用重启。
+
+[h2]Features / 特性[/h2]
+[list]
+[*][b]Per-world mod list[/b] — the list lives in the world header, not in a global config. Copy the world to another machine and the list comes with it.
+[b]每个世界一份清单[/b] —— 清单存在世界存档头里，不在全局配置里。把世界复制到别的电脑，清单也跟着走。
+[*][b]In-process mod reload[/b] — switching a world's mod set reloads mods without closing the game; seed, name, size, difficulty and world evil are all preserved.
+[b]进程内重载[/b] —— 切换模组集时不用关游戏；种子、名字、大小、难度、世界邪恶全部保留。
+[*][b]Three-way prompt[/b] — Switch & enter / Enter anyway / Cancel. In multiplayer the switch option is hidden, since the server decides the mod set.
+[b]三选一弹窗[/b] —— 「切换并进入」/「直接进入」/「取消」。多人游戏不显示「切换并进入」，以服务器为准。
+[*][b]Character-tagged worlds[/b] — mark a character as a world's owner and that world switches mods (if needed) and enters on a single click.
+[b]角色自己的世界[/b] —— 把角色标记为某个世界的主人后，点一下就自动切换模组并进入，不再弹窗。
+[*][b]Dependency-aware selection[/b] — ticking a mod auto-ticks its requirements; unticking removes everything that depends on it. Same rules as Manage Mods.
+[b]依赖联动[/b] —— 勾选会自动带上前置，取消会连带取消依赖它的模组，规则和「管理模组」一致。
+[*][b]Built-in manual[/b] — a 使用说明 button opens an in-game help page, so there is no README to hunt for.
+[b]内置使用说明[/b] —— 「使用说明」按钮打开游戏内帮助页，不用去翻 README。
+[/list]
+
+[h2]Good to know / 注意[/h2]
+[list]
+[*]Mods must already be downloaded. The mod never downloads anything and never auto-adds mods to a world.
+模组必须已经下载好。它不会下载任何东西，也不会自动往世界里加模组。
+[*]It never hard-blocks world entry: if mods are missing you can always choose to enter anyway.
+不会硬拦着进世界：缺模组时你随时可以选择照样进入。
+[*]Switching mods requires one reload; the first screen after it is the world-creation menu. Auto-enter handles character-tagged worlds and the "switch & enter" path.
+切换模组需要一次重载，重载后第一屏是世界创建界面。角色自己的世界和「切换并进入」会自动帮你进世界。
+[/list]
+
+[h2]Links / 链接[/h2]
+[list]
+[*]Source and release notes / 源码与更新说明: [url=https://github.com/wellkaj/PerWorldMods]github.com/wellkaj/PerWorldMods[/url]
+[*]Manual (Chinese) / 中文使用说明: included in the repository README / 见仓库 README
+[/list]

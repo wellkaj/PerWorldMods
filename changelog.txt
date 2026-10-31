@@ -1,0 +1,9 @@
+v0.5
+- First public release: per-world mod lists with in-process mod reload.
+  首个公开版本：每个世界一份模组清单，进程内重载模组。
+- New 使用说明 button and in-game help page.
+  新增「使用说明」按钮和游戏内帮助页。
+- Mod description now shows in Manage Mods, English followed by Chinese.
+  「模组」列表现在显示简介，英文后紧跟中文。
+- Icon and cover taken from the actual interface.
+  图标和封面换成实际界面截图。
